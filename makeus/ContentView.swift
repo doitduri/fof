@@ -1,16 +1,16 @@
-//
-//  ContentView.swift
-//  makeus
-//
-//  Created by 김두리 on 2021/02/07.
-//
-
 import SwiftUI
+import WaterfallGrid
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView{
+            NavigationLink(destination: LoginView()) {
+                HStack {
+                    Text("main Grid")
+                }
+            }
+        }
+
     }
 }
 

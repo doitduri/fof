@@ -3,16 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C137D47F25D95EAF00E37ED1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C137D47E25D95EAF00E37ED1 /* Alamofire */; };
+		C13833C425D7DF3E00F12949 /* WaterfallGrid in Frameworks */ = {isa = PBXBuildFile; productRef = C13833C325D7DF3E00F12949 /* WaterfallGrid */; };
+		C145219325E002C500FCB08D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C145219225E002C500FCB08D /* LoginView.swift */; };
+		C14521A325E24D5C00FCB08D /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14521A225E24D5C00FCB08D /* LoginViewModel.swift */; };
+		C14521A825E24DB500FCB08D /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14521A725E24DB500FCB08D /* APIHandler.swift */; };
+		C14521AD25E24DD100FCB08D /* LoginHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14521AC25E24DD100FCB08D /* LoginHandler.swift */; };
+		C14521B225E24E9300FCB08D /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14521B125E24E9300FCB08D /* LoginResponse.swift */; };
+		C14521BF25E250F000FCB08D /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14521BE25E250F000FCB08D /* TextFields.swift */; };
+		C14521C425E2511F00FCB08D /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14521C325E2511F00FCB08D /* LoadingView.swift */; };
+		C14521C925E2513400FCB08D /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14521C825E2513400FCB08D /* LoadingIndicator.swift */; };
 		C16D519925CFDED800C75A5E /* makeusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D519825CFDED800C75A5E /* makeusApp.swift */; };
 		C16D519B25CFDED800C75A5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D519A25CFDED800C75A5E /* ContentView.swift */; };
 		C16D519D25CFDED900C75A5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16D519C25CFDED900C75A5E /* Assets.xcassets */; };
 		C16D51A025CFDED900C75A5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16D519F25CFDED900C75A5E /* Preview Assets.xcassets */; };
 		C16D51AB25CFDED900C75A5E /* makeusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D51AA25CFDED900C75A5E /* makeusTests.swift */; };
 		C16D51B625CFDED900C75A5E /* makeusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D51B525CFDED900C75A5E /* makeusUITests.swift */; };
+		C16D51E825CFE86900C75A5E /* StaggeredGridSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D51E725CFE86900C75A5E /* StaggeredGridSettingsView.swift */; };
+		C16D51F025CFE87600C75A5E /* StaggeredGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D51EF25CFE87600C75A5E /* StaggeredGridView.swift */; };
+		C16D51F525CFE88D00C75A5E /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D51F425CFE88D00C75A5E /* ImageDetailView.swift */; };
+		C16D51FA25CFE8D900C75A5E /* SharedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16D51F925CFE8D900C75A5E /* SharedAssets.xcassets */; };
+		C16D520625CFEAC000C75A5E /* Grid in Frameworks */ = {isa = PBXBuildFile; productRef = C16D520525CFEAC000C75A5E /* Grid */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C145219225E002C500FCB08D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C14521A225E24D5C00FCB08D /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		C14521A725E24DB500FCB08D /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		C14521AC25E24DD100FCB08D /* LoginHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHandler.swift; sourceTree = "<group>"; };
+		C14521B125E24E9300FCB08D /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		C14521BE25E250F000FCB08D /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
+		C14521C325E2511F00FCB08D /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		C14521C825E2513400FCB08D /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
 		C16D519525CFDED800C75A5E /* makeus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = makeus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C16D519825CFDED800C75A5E /* makeusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makeusApp.swift; sourceTree = "<group>"; };
 		C16D519A25CFDED800C75A5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +68,10 @@
 		C16D51B125CFDED900C75A5E /* makeusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = makeusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C16D51B525CFDED900C75A5E /* makeusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makeusUITests.swift; sourceTree = "<group>"; };
 		C16D51B725CFDED900C75A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C16D51E725CFE86900C75A5E /* StaggeredGridSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredGridSettingsView.swift; sourceTree = "<group>"; };
+		C16D51EF25CFE87600C75A5E /* StaggeredGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredGridView.swift; sourceTree = "<group>"; };
+		C16D51F425CFE88D00C75A5E /* ImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailView.swift; sourceTree = "<group>"; };
+		C16D51F925CFE8D900C75A5E /* SharedAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SharedAssets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +79,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C137D47F25D95EAF00E37ED1 /* Alamofire in Frameworks */,
+				C16D520625CFEAC000C75A5E /* Grid in Frameworks */,
+				C13833C425D7DF3E00F12949 /* WaterfallGrid in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +102,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C137D46F25D959D900E37ED1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C14521A725E24DB500FCB08D /* APIHandler.swift */,
+				C14521C325E2511F00FCB08D /* LoadingView.swift */,
+				C14521C825E2513400FCB08D /* LoadingIndicator.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C145219125E002BA00FCB08D /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				C145219225E002C500FCB08D /* LoginView.swift */,
+				C14521A225E24D5C00FCB08D /* LoginViewModel.swift */,
+				C14521AC25E24DD100FCB08D /* LoginHandler.swift */,
+				C14521B125E24E9300FCB08D /* LoginResponse.swift */,
+				C14521BE25E250F000FCB08D /* TextFields.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		C16D518C25CFDED800C75A5E = {
 			isa = PBXGroup;
 			children = (
@@ -95,11 +147,15 @@
 		C16D519725CFDED800C75A5E /* makeus */ = {
 			isa = PBXGroup;
 			children = (
+				C145219125E002BA00FCB08D /* Auth */,
+				C137D46F25D959D900E37ED1 /* Utilities */,
+				C16D51E625CFE85300C75A5E /* StaggeredGrid */,
 				C16D519825CFDED800C75A5E /* makeusApp.swift */,
 				C16D519A25CFDED800C75A5E /* ContentView.swift */,
 				C16D519C25CFDED900C75A5E /* Assets.xcassets */,
 				C16D51A125CFDED900C75A5E /* Info.plist */,
 				C16D519E25CFDED900C75A5E /* Preview Content */,
+				C16D51F925CFE8D900C75A5E /* SharedAssets.xcassets */,
 			);
 			path = makeus;
 			sourceTree = "<group>";
@@ -130,6 +186,16 @@
 			path = makeusUITests;
 			sourceTree = "<group>";
 		};
+		C16D51E625CFE85300C75A5E /* StaggeredGrid */ = {
+			isa = PBXGroup;
+			children = (
+				C16D51E725CFE86900C75A5E /* StaggeredGridSettingsView.swift */,
+				C16D51EF25CFE87600C75A5E /* StaggeredGridView.swift */,
+				C16D51F425CFE88D00C75A5E /* ImageDetailView.swift */,
+			);
+			path = StaggeredGrid;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +212,11 @@
 			dependencies = (
 			);
 			name = makeus;
+			packageProductDependencies = (
+				C16D520525CFEAC000C75A5E /* Grid */,
+				C13833C325D7DF3E00F12949 /* WaterfallGrid */,
+				C137D47E25D95EAF00E37ED1 /* Alamofire */,
+			);
 			productName = makeus;
 			productReference = C16D519525CFDED800C75A5E /* makeus.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +288,11 @@
 				Base,
 			);
 			mainGroup = C16D518C25CFDED800C75A5E;
+			packageReferences = (
+				C16D520425CFEAC000C75A5E /* XCRemoteSwiftPackageReference "swiftui-grid" */,
+				C13833C225D7DF3E00F12949 /* XCRemoteSwiftPackageReference "WaterfallGrid" */,
+				C137D47D25D95EAF00E37ED1 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = C16D519625CFDED800C75A5E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C16D51FA25CFE8D900C75A5E /* SharedAssets.xcassets in Resources */,
 				C16D51A025CFDED900C75A5E /* Preview Assets.xcassets in Resources */,
 				C16D519D25CFDED900C75A5E /* Assets.xcassets in Resources */,
 			);
@@ -259,8 +336,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C14521AD25E24DD100FCB08D /* LoginHandler.swift in Sources */,
+				C145219325E002C500FCB08D /* LoginView.swift in Sources */,
 				C16D519B25CFDED800C75A5E /* ContentView.swift in Sources */,
+				C16D51F025CFE87600C75A5E /* StaggeredGridView.swift in Sources */,
+				C14521B225E24E9300FCB08D /* LoginResponse.swift in Sources */,
+				C14521C925E2513400FCB08D /* LoadingIndicator.swift in Sources */,
+				C14521C425E2511F00FCB08D /* LoadingView.swift in Sources */,
+				C14521BF25E250F000FCB08D /* TextFields.swift in Sources */,
+				C14521A825E24DB500FCB08D /* APIHandler.swift in Sources */,
+				C16D51E825CFE86900C75A5E /* StaggeredGridSettingsView.swift in Sources */,
 				C16D519925CFDED800C75A5E /* makeusApp.swift in Sources */,
+				C16D51F525CFE88D00C75A5E /* ImageDetailView.swift in Sources */,
+				C14521A325E24D5C00FCB08D /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +668,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C137D47D25D95EAF00E37ED1 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+		C13833C225D7DF3E00F12949 /* XCRemoteSwiftPackageReference "WaterfallGrid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/paololeonardi/WaterfallGrid.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		C16D520425CFEAC000C75A5E /* XCRemoteSwiftPackageReference "swiftui-grid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/spacenation/swiftui-grid.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C137D47E25D95EAF00E37ED1 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C137D47D25D95EAF00E37ED1 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		C13833C325D7DF3E00F12949 /* WaterfallGrid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C13833C225D7DF3E00F12949 /* XCRemoteSwiftPackageReference "WaterfallGrid" */;
+			productName = WaterfallGrid;
+		};
+		C16D520525CFEAC000C75A5E /* Grid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C16D520425CFEAC000C75A5E /* XCRemoteSwiftPackageReference "swiftui-grid" */;
+			productName = Grid;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C16D518D25CFDED800C75A5E /* Project object */;
 }
