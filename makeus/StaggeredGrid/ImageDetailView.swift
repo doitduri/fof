@@ -1,13 +1,13 @@
 import SwiftUI
 
 struct ImageDetailView: View {
-    let imageName: String
+    let meme: MemeImage
     
     var body: some View {
-        Image(imageName)
+        Image(meme.nickname)
             .renderingMode(.original)
             .resizable()
             .scaledToFit()
-            .navigationBarTitle("Image \(imageName)")
+//            .navigationBarTitle("Image \(imageName)")
     }
 }

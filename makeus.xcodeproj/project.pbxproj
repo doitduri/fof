@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C121EF9B25ED118000FD6F65 /* MemeImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C121EF9A25ED118000FD6F65 /* MemeImageModel.swift */; };
+		C121EFB225ED433D00FD6F65 /* UrlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C121EFB125ED433D00FD6F65 /* UrlImageView.swift */; };
+		C121EFB725ED439500FD6F65 /* UrlImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C121EFB625ED439400FD6F65 /* UrlImageModel.swift */; };
 		C137D47F25D95EAF00E37ED1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C137D47E25D95EAF00E37ED1 /* Alamofire */; };
 		C13833C425D7DF3E00F12949 /* WaterfallGrid in Frameworks */ = {isa = PBXBuildFile; productRef = C13833C325D7DF3E00F12949 /* WaterfallGrid */; };
 		C145219325E002C500FCB08D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C145219225E002C500FCB08D /* LoginView.swift */; };
@@ -48,6 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C121EF9A25ED118000FD6F65 /* MemeImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeImageModel.swift; sourceTree = "<group>"; };
+		C121EFB125ED433D00FD6F65 /* UrlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlImageView.swift; sourceTree = "<group>"; };
+		C121EFB625ED439400FD6F65 /* UrlImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlImageModel.swift; sourceTree = "<group>"; };
 		C145219225E002C500FCB08D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		C14521A225E24D5C00FCB08D /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		C14521A725E24DB500FCB08D /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
@@ -192,6 +198,9 @@
 				C16D51E725CFE86900C75A5E /* StaggeredGridSettingsView.swift */,
 				C16D51EF25CFE87600C75A5E /* StaggeredGridView.swift */,
 				C16D51F425CFE88D00C75A5E /* ImageDetailView.swift */,
+				C121EF9A25ED118000FD6F65 /* MemeImageModel.swift */,
+				C121EFB125ED433D00FD6F65 /* UrlImageView.swift */,
+				C121EFB625ED439400FD6F65 /* UrlImageModel.swift */,
 			);
 			path = StaggeredGrid;
 			sourceTree = "<group>";
@@ -341,14 +350,17 @@
 				C16D519B25CFDED800C75A5E /* ContentView.swift in Sources */,
 				C16D51F025CFE87600C75A5E /* StaggeredGridView.swift in Sources */,
 				C14521B225E24E9300FCB08D /* LoginResponse.swift in Sources */,
+				C121EFB725ED439500FD6F65 /* UrlImageModel.swift in Sources */,
 				C14521C925E2513400FCB08D /* LoadingIndicator.swift in Sources */,
 				C14521C425E2511F00FCB08D /* LoadingView.swift in Sources */,
 				C14521BF25E250F000FCB08D /* TextFields.swift in Sources */,
 				C14521A825E24DB500FCB08D /* APIHandler.swift in Sources */,
+				C121EF9B25ED118000FD6F65 /* MemeImageModel.swift in Sources */,
 				C16D51E825CFE86900C75A5E /* StaggeredGridSettingsView.swift in Sources */,
 				C16D519925CFDED800C75A5E /* makeusApp.swift in Sources */,
 				C16D51F525CFE88D00C75A5E /* ImageDetailView.swift in Sources */,
 				C14521A325E24D5C00FCB08D /* LoginViewModel.swift in Sources */,
+				C121EFB225ED433D00FD6F65 /* UrlImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +433,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -482,6 +495,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
